@@ -1,0 +1,31 @@
+$color-bg-grey: #f2f2f2;
+$color-text-grey: #9b9998;
+$color-border-grey: #9b9998;
+$color-text-blue: #5d94c8;
+
+.bg-grey {
+  background-color: $color-bg-grey;
+}
+.text-grey {
+  color: $color-text-grey;
+}
+.text-blue {
+  color: $color-text-blue;
+}
+
+.size-12 {
+  font-size: 12px;
+}
+.size-13 {
+  font-size: 13px;
+}
+.size-14 {
+  font-size: 14px;
+}
+.size-16 {
+  font-size: 16px;
+}
+
+.width-100 {
+  width: 100%;
+}
