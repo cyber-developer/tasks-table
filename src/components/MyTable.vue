@@ -6,7 +6,7 @@
         <span class="font-weight-bold mr-3">Completed Tasks</span>
         <v-icon size="20">mdi-information-outline</v-icon>
       </div>
-      <v-progress-linear value="15"></v-progress-linear>
+      <v-progress-linear value="15" color="blue darken-4"></v-progress-linear>
     </div>
     <!-- Table top -->
     <TableTop />
@@ -147,5 +147,8 @@ export default {
       width: 100px;
     }
   }
+}
+.v-data-table td, .v-data-table th {
+  padding: 0 5px !important;
 }
 </style>

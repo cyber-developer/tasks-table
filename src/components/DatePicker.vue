@@ -6,7 +6,7 @@
     :return-value.sync="date"
     transition="scale-transition"
     offset-y
-    position-x="center"
+    origin="center"
     min-width="0"
   >
     <template v-slot:activator="{ on }">
@@ -16,6 +16,7 @@
         placeholder="date"
         append-icon="mdi-calendar"
         v-on="on"
+        @click:append="menu = true"
         outlined
         dense
         hide-details
