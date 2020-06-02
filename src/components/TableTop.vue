@@ -23,7 +23,7 @@
         />
       </v-flex>
       <v-flex>
-        <v-btn outlined height="40">Export</v-btn>
+        <v-btn outlined height="40" color="grey darken-2">Export</v-btn>
       </v-flex>
     </v-layout>
   </div>
